@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac8a65d8e3a84911b7b2f6e78140884, type: 3}
   m_Name: FUDGE
   m_EditorClassIdentifier: 
-  word: 
+  word: FUDGE
   vowelLetters: 4100450049004f0055005900
   constantLetters: 460044005000480047004d00
   wordImage: {fileID: 21300000, guid: 7677bf05410f748b9a4e6a8d6186a20d, type: 3}

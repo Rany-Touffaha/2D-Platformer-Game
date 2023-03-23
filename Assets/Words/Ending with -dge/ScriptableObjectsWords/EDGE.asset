@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac8a65d8e3a84911b7b2f6e78140884, type: 3}
   m_Name: EDGE
   m_EditorClassIdentifier: 
-  word: 
+  word: EDGE
   vowelLetters: 4100450049004f0055005900
   constantLetters: 44004a0050004d0047004b00
   wordImage: {fileID: 21300000, guid: 2ac51cdc962cc4085a0734c5f93215d0, type: 3}

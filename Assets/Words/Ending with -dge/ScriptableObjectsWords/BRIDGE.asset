@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ac8a65d8e3a84911b7b2f6e78140884, type: 3}
   m_Name: BRIDGE
   m_EditorClassIdentifier: 
-  word: 
+  word: BRIDGE
   vowelLetters: 4100450049004f0055005900
   constantLetters: 500052004400420047004a00
   wordImage: {fileID: 21300000, guid: 827add76b118f412384082f6aa4b887f, type: 3}
