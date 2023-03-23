@@ -44,7 +44,7 @@ public class TextManager : MonoBehaviour
     private IEnumerator WaitForCanvasToDisplay(string sentence)
     {
         yield return new WaitForSeconds(3f);
-        dialogueCanvasController.DeactivateCanvasWithDelay(1);
+        dialogueCanvasController.DeactivateCanvasWithDelay(2);
         DisplayNextSentence();
     }
 

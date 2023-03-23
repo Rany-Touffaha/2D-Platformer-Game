@@ -7,7 +7,6 @@ public class TeleportPlayer : MonoBehaviour
 
     private void Update()
     {
-
         if (PlayerInput.Instance.Interact.Down && currentTeleporter != null)
         {
             transform.position = currentTeleporter.GetDestinationPortal().position;

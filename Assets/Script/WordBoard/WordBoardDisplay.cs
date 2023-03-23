@@ -14,6 +14,7 @@ public class WordBoardDisplay : MonoBehaviour
 
     public PressurePad pressurePad;
     public InventoryItem key;
+    public TextDialogue incorrectWordTextDialogue;
 
     private int currentIndex = 0;
 
@@ -95,23 +96,10 @@ public class WordBoardDisplay : MonoBehaviour
             GameObject ellen = GameObject.Find("Ellen");
             ellen.GetComponent<CharacterControllerTransition>().EnableCharacterController();
             ellen.GetComponent<CameraTransition>().TransitionToMainCamera();
-
-            //GameObject keyObject = GameObject.Find("Key1");
-            //ActivateKey activateKey = keyObject.GetComponent<ActivateKey>();
-            //activateKey.ShowKey();
         }
         else
         {
-            TextDialogue textDialogue = new TextDialogue
-            {
-                sentences = new[]
-                {
-                "You're almost there!",
-                "Remember, some letters sound similar! Like B and P, or G and J...",
-                }
-            };
-            //TextTrigger textTrigger = new TextTrigger();
-            TextTrigger.TriggerText(textDialogue);
+            TextTrigger.TriggerText(incorrectWordTextDialogue);
             MoveToNextEmptyLetter();
         }
     }
