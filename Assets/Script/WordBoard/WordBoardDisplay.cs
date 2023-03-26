@@ -91,6 +91,7 @@ public class WordBoardDisplay : MonoBehaviour
             TextTrigger.TriggerText(textDialogue);
             DisablePressurePad();
             EnableKey();
+            WordPanelController.DisableWordPanel(gameObject); 
 
             GameObject ellen = GameObject.Find("Ellen");
             ellen.GetComponent<CharacterControllerTransition>().EnableCharacterController();
