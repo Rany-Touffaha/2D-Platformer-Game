@@ -8,6 +8,8 @@ public class CameraTransition : MonoBehaviour
     [SerializeField] private Camera firstWordCamera;
     [SerializeField] private Camera secondWordCamera;
     [SerializeField] private Camera thirdWordCamera;
+    [SerializeField] private Camera fourthWordCamera;
+    [SerializeField] private Camera fifthWordCamera;
 
     private Camera[] cameras;
 
@@ -23,8 +25,10 @@ public class CameraTransition : MonoBehaviour
         firstWordCamera = FindCamera("FirstWordCamera");
         secondWordCamera = FindCamera("SecondWordCamera");
         thirdWordCamera = FindCamera("ThirdWordCamera");
+        fourthWordCamera = FindCamera("FourthWordCamera");
+        fifthWordCamera = FindCamera("FifthWordCamera");
 
-        cameras = new Camera[] { mainCamera, firstWordCamera, secondWordCamera, thirdWordCamera };
+        cameras = new Camera[] { mainCamera, firstWordCamera, secondWordCamera, thirdWordCamera, fourthWordCamera, fifthWordCamera};
 
         foreach (Camera camera in cameras)
         {
