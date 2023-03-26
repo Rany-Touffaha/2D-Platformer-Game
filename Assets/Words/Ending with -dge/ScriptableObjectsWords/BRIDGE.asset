@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   word: BRIDGE
   vowelLetters: 4100450049004f0055005900
-  constantLetters: 500052004400420047004a00
+  consonantLetters: 4a0042004400520050004700
   wordImage: {fileID: 21300000, guid: 827add76b118f412384082f6aa4b887f, type: 3}

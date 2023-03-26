@@ -5,7 +5,7 @@ using TMPro;
 public class ButtonInput : MonoBehaviour
 {
     public Button button;
-    public string wordBoardName;
+    public string wordBoardPanelName;
 
     void Start()
     {
@@ -17,7 +17,7 @@ public class ButtonInput : MonoBehaviour
         TextMeshPro buttonText = button.GetComponentInChildren<TextMeshPro>();
         string buttonString = buttonText.text;
 
-        GameObject wordBoardPanel = GameObject.Find(wordBoardName);
+        GameObject wordBoardPanel = GameObject.Find(wordBoardPanelName);
 
         if (wordBoardPanel != null)
         {

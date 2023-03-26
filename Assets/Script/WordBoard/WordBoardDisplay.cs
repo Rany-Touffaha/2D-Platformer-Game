@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class WordBoardDisplay : MonoBehaviour
 {
     public WordBoard wordBoard;
-    public List<TextMeshPro> constantLetterList;
+    public List<TextMeshPro> consonantLetterList;
     public List<TextMeshPro> vowelLetterList;
     public List<TextMeshPro> outputLetterList;
     public Image wordImage;
@@ -27,9 +27,9 @@ public class WordBoardDisplay : MonoBehaviour
     {
         wordBoard.Print();
 
-        for (int i = 0; i < wordBoard.constantLetters.Count && i < constantLetterList.Count; i++)
+        for (int i = 0; i < wordBoard.consonantLetters.Count && i < consonantLetterList.Count; i++)
         {
-            constantLetterList[i].text = wordBoard.constantLetters[i].ToString();
+            consonantLetterList[i].text = wordBoard.consonantLetters[i].ToString();
         }
 
         for (int i = 0; i < wordBoard.vowelLetters.Count && i < vowelLetterList.Count; i++)
@@ -46,7 +46,6 @@ public class WordBoardDisplay : MonoBehaviour
         {
             outputLetterList[currentIndex].text = letter;
             MoveToNextEmptyLetter();
-
         }
         else
         {

@@ -8,13 +8,13 @@ public class WordBoard : ScriptableObject
 
     public string word;
     public List<char> vowelLetters = new List<char>() { 'A', 'E', 'I', 'O', 'U', 'Y' };
-    public List<char> constantLetters;
+    public List<char> consonantLetters;
 
     public Sprite wordImage;
 
     public void Print()
     {
-        Debug.Log(word + ":" + string.Join(", ", constantLetters) + ":" + string.Join(", ", vowelLetters));
+        Debug.Log(word + ":" + string.Join(", ", consonantLetters) + ":" + string.Join(", ", vowelLetters));
     }
 
 }
