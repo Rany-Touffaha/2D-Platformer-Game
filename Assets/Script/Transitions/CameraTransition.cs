@@ -57,7 +57,7 @@ public class CameraTransition : MonoBehaviour
         GameObject cameraObject = GameObject.Find(cameraName);
         if (cameraObject == null)
         {
-            Debug.LogError($"Could not find camera with name {cameraName}");
+            Debug.Log($"Could not find camera with name {cameraName}");
             return null;
         }
         return cameraObject.GetComponent<Camera>();
@@ -76,7 +76,7 @@ public class CameraTransition : MonoBehaviour
         }
         else
         {
-            Debug.LogError("Camera with tag " + newCamera.ToString() + " not found.");
+            Debug.Log("Camera with tag " + newCamera.ToString() + " not found.");
         }
     }
 
