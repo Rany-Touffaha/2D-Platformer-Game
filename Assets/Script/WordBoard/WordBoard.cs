@@ -22,5 +22,4 @@ public class WordBoard : ScriptableObject
     {
         Debug.Log(word + ":" + string.Join(", ", consonantLetters) + ":" + string.Join(", ", vowelLetters));
     }
-
 }

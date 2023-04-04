@@ -3344,6 +3344,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &107982858 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791080144770444, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1702198422}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &109292311 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1449740465065426, guid: ea040a76895f65745899f41e3dff6aeb,
@@ -11711,6 +11717,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &417903303 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791080144770444, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+    type: 3}
+  m_PrefabInstance: {fileID: 740544545}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &421115570
 GameObject:
   m_ObjectHideFlags: 0
@@ -24995,7 +25007,7 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -25014,6 +25026,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2049899114}
@@ -25029,6 +25046,11 @@ PrefabInstance:
       objectReference: {fileID: 2049899141}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 2026738365}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -25040,6 +25062,11 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
@@ -25059,6 +25086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: TriggerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: CameraTransition, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -25071,6 +25103,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: WordPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TextTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -25096,6 +25133,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 212287259617276010, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -25175,7 +25217,7 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -25194,6 +25236,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2049899114}
@@ -25209,6 +25256,11 @@ PrefabInstance:
       objectReference: {fileID: 2049899141}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 740544553}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -25220,6 +25272,11 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
@@ -25239,6 +25296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: TriggerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: CameraTransition, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -25251,6 +25313,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: WordPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TextTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -25277,6 +25344,11 @@ PrefabInstance:
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 212287259617276010, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -25290,12 +25362,27 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 740544545}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 417903303}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3869f08528931a49910b88ba82a0150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &740544553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417903303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f1abc20a865425192f63204631e609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDialogue:
+    sentences:
+    - Click on the letter using the mouse!
 --- !u!1 &748573492 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1449740465065426, guid: ea040a76895f65745899f41e3dff6aeb,
@@ -29821,7 +29908,7 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -29840,6 +29927,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2049899114}
@@ -29855,6 +29947,11 @@ PrefabInstance:
       objectReference: {fileID: 2049899141}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 1624711829}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -29866,6 +29963,11 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
@@ -29885,6 +29987,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: TriggerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: CameraTransition, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -29897,6 +30004,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: WordPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TextTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -29922,6 +30034,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 212287259617276010, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -31981,7 +32098,7 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -32000,6 +32117,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2049899114}
@@ -32015,6 +32137,11 @@ PrefabInstance:
       objectReference: {fileID: 2049899141}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 2118333033}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -32026,6 +32153,11 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
@@ -32045,6 +32177,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: TriggerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: CameraTransition, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -32057,6 +32194,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: WordPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TextTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -32082,6 +32224,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 212287259617276010, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -32600,6 +32747,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1018818870 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791080144770444, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+    type: 3}
+  m_PrefabInstance: {fileID: 888619110}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1021009329
 GameObject:
   m_ObjectHideFlags: 0
@@ -54793,12 +54946,27 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 888619110}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1018818870}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3869f08528931a49910b88ba82a0150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1624711829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018818870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f1abc20a865425192f63204631e609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDialogue:
+    sentences:
+    - Click on the letter using the mouse!
 --- !u!1 &1632058677
 GameObject:
   m_ObjectHideFlags: 0
@@ -56653,6 +56821,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 403744419}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1692176716 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791080144770444, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+    type: 3}
+  m_PrefabInstance: {fileID: 731726707}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1696169874
 GameObject:
   m_ObjectHideFlags: 0
@@ -57128,7 +57302,7 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -57147,6 +57321,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
       objectReference: {fileID: 2049899114}
@@ -57162,6 +57341,11 @@ PrefabInstance:
       objectReference: {fileID: 2049899141}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Target
+      value: 
+      objectReference: {fileID: 1702198430}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
@@ -57173,6 +57357,11 @@ PrefabInstance:
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
@@ -57192,6 +57381,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_MethodName
+      value: TriggerText
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
       value: CameraTransition, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -57204,6 +57398,11 @@ PrefabInstance:
         type: 3}
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_TargetAssemblyTypeName
       value: WordPanelController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_TargetAssemblyTypeName
+      value: TextTrigger, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
@@ -57230,6 +57429,11 @@ PrefabInstance:
       propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[4].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.GameObject, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 114149700317922388, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+        type: 3}
+      propertyPath: OnPressed.m_PersistentCalls.m_Calls.Array.data[5].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 212287259617276010, guid: daebb73bab52a3b4d8eab37c26a8a62f,
         type: 3}
       propertyPath: m_SortingOrder
@@ -57243,12 +57447,27 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1702198422}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 107982858}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3869f08528931a49910b88ba82a0150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1702198430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 107982858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f1abc20a865425192f63204631e609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDialogue:
+    sentences:
+    - Click on the letter using the mouse!
 --- !u!1 &1702234881
 GameObject:
   m_ObjectHideFlags: 0
@@ -115835,7 +116054,7 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 1002605445}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 2118333026}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3869f08528931a49910b88ba82a0150, type: 3}
@@ -117033,12 +117252,27 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 731726707}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1692176716}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a3869f08528931a49910b88ba82a0150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &2026738365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692176716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f1abc20a865425192f63204631e609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDialogue:
+    sentences:
+    - Click on the letter using the mouse!
 --- !u!1 &2028277826
 GameObject:
   m_ObjectHideFlags: 0
@@ -119910,6 +120144,27 @@ MeshRenderer:
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2118333026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1791080144770444, guid: daebb73bab52a3b4d8eab37c26a8a62f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1002605445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2118333033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2118333026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5f1abc20a865425192f63204631e609, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textDialogue:
+    sentences:
+    - Click on the letter using the mouse!
 --- !u!1 &2121521279
 GameObject:
   m_ObjectHideFlags: 0

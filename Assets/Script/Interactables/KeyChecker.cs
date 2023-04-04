@@ -38,5 +38,4 @@ public class KeyChecker : MonoBehaviour
         bool hasAllKeys = checker.CheckInventory(inventoryController);
         return hasAllKeys;
     }
-
 }
