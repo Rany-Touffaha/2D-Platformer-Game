@@ -46944,7 +46944,8 @@ MonoBehaviour:
     sentences:
     - This door will only open if you have all 5 keys!
   winningTextDialogue:
-    sentences: []
+    sentences:
+    - Good job! You've collected all the keys!
 --- !u!114 &1378451589
 MonoBehaviour:
   m_ObjectHideFlags: 0
